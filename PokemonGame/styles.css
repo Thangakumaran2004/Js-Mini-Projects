@@ -1,0 +1,101 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1{
+    margin-top: 5vh;
+    padding: 10px;
+    width: 100%;
+    font-size: 400%;
+    font-style: bold;
+    text-align: center;
+    color: black
+}
+
+body{
+    background-image: url('https://lh3.googleusercontent.com/05JfZ1ZdyzrRNvhJosUFdcjjJRFE7k2KhmeM2ujqeCbrcrCb1hkq7O_JdUBpQ3r9hi0YeSn4WgmKx3Ai8LHdM2SucxSzl9TRZ4fCAqETJ6WtHgE=w1440-e365');   
+}
+
+.container{
+    width: 40%;
+    margin: 5vh auto 0 auto;
+    padding: 3vh;
+    background: linear-gradient(#0353a4,#002855);
+    box-shadow: 2px 0px 10px 20px white;
+    border-radius: 10px;
+    background-color: blur();
+    opacity: 0.9;
+}
+
+table{
+    width: 80%;
+    border: 3px white solid;
+    margin: 1vh auto 1vh auto;
+    row-gap: 2px;
+    column-gap: 3px;
+    border-radius: 10px;
+}
+
+
+
+
+h3,h5{
+    display: inline-block;
+    margin:2vh 10vh 1vh 10vh;
+    font-size: 120%;
+    text-align: center;
+}
+
+#sprite{
+    margin: 1vh auto 1vh auto;
+    display: block;
+}
+
+#input-label{
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+p{
+    background-color: #a0c2c6;
+    width: 20%;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    display: block;
+    width: 50%;
+    padding:1vh 3vh 1vh 3vh;
+    margin: 1vh auto 1vh auto;
+    border: none;
+    color: black;
+}
+button{
+    display: block;
+    padding: 1vh 4vh 1vh 4vh;
+    margin: 0 auto 0 auto;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+td,th{
+    padding: 2vh;
+    background-color: #33415c ;
+    text-align: center;
+}
+
+th{
+    background-color: #1976d2;
+    font-size: 200%;
+}
